@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectManagement.Models
 {
     [Serializable]
-    internal class Project
+    public class Project
     {
         public string ProjectNumber { get; set; }
         public string SubprojectNumber { get; set; }
