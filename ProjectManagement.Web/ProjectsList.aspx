@@ -13,6 +13,7 @@
         <header>
             <h1>Sistema de Gestão de Projetos</h1>
             <nav>
+                <a href="ProjectRegistration.aspx" class="active">Cadastrar Projeto</a>
                 <a href="ProjectsList.aspx" class="active">Consultar Projetos</a>
             </nav>
         </header>
