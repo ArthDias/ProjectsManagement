@@ -101,11 +101,28 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Web.config" />
+    <Content Include="ProjectsList.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectsList.aspx.cs">
+      <DependentUpon>ProjectsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjectsList.aspx.designer.cs">
+      <DependentUpon>ProjectsList.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManagement.Models\ProjectManagement.Models.csproj">
+      <Project>{f8a1c035-9065-4373-92be-bfeabf66d543}</Project>
+      <Name>ProjectManagement.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectManagement.WCF\ProjectManagement.WCF.csproj">
+      <Project>{21f83200-dcd5-4719-a910-1709b8822e73}</Project>
+      <Name>ProjectManagement.WCF</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
