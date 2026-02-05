@@ -114,7 +114,7 @@ namespace ProjectManagement.Web
                 ProjectNumber = txtNumeroProjeto.Text.Trim(),
                 SubprojectNumber = txtNumeroSubprojeto.Text.Trim(),
                 ProjectName = txtNomeProjeto.Text.Trim(),
-                CoodinatorName = txtNomeCoordenador.Text.Trim(),
+                CoordinatorName = txtNomeCoordenador.Text.Trim(),
                 Balance = balance
             };
         }

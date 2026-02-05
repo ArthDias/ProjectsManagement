@@ -14,7 +14,7 @@
             <h1>Sistema de Gestão de Projetos</h1>
             <nav>
                 <a href="ProjectRegistration.aspx" class="active">Cadastrar Projeto</a>
-                <a href="ProjectList.aspx">Consultar Projetos</a>
+                <a href="ProjectsList.aspx">Consultar Projetos</a>
             </nav>
         </header>
 

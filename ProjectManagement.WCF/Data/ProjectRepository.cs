@@ -42,7 +42,7 @@ namespace ProjectManagement.WCF.Data
                 ProjectNumber = "2024001",
                 SubprojectNumber = "001",
                 ProjectName = "Pesquisa em Inteligência Artificial",
-                CoodinatorName = "Dr. Carlos Silva",
+                CoordinatorName = "Dr. Carlos Silva",
                 Balance = 150000.00m,
             });
 
@@ -51,7 +51,7 @@ namespace ProjectManagement.WCF.Data
                 ProjectNumber = "2024002",
                 SubprojectNumber = "001",
                 ProjectName = "Desenvolvimento de Aplicações Web",
-                CoodinatorName = "Profa. Ana Santos",
+                CoordinatorName = "Profa. Ana Santos",
                 Balance = 85000.50m
             });
 
@@ -60,7 +60,7 @@ namespace ProjectManagement.WCF.Data
                 ProjectNumber = "2024003",
                 SubprojectNumber = "002",
                 ProjectName = "Estudo de Energias Renováveis",
-                CoodinatorName = "Dr. Roberto Oliveira",
+                CoordinatorName = "Dr. Roberto Oliveira",
                 Balance = 220000.00m
             });
         }
